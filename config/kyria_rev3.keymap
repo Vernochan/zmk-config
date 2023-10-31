@@ -58,13 +58,13 @@
             // |       |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
             //                       |      |      |      |      |      |      |      |      |      |      |      |      |
             bindings = <
-            &trans &trans  &trans &trans &trans &trans                                  &trans &trans &UP_ARROW &trans &trans &trans
-            &trans &trans  &trans &trans &trans &trans                                  &trans &LEFT_ARROW &DOWN_ARROW &RIGHT_ARROW &trans &trans
+            &trans &trans  &trans &trans &trans &trans                                  &trans &trans &trans &trans &trans &trans
+            &trans &trans  &trans &trans &trans &trans                                  &trans &trans &trans &trans &trans &trans
             &trans &trans  &trans &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &trans &trans &trans
                                   &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp DOWN_ARROW UP_ARROW>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_DN PG_UP>;
         };
     };
 };
